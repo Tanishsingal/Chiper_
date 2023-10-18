@@ -1,20 +1,16 @@
 #include<iostream>
 using namespace std;
 
-
-//void printstuff(){
-//	cout<<"writing my first function";
-//}
-
-int sum(int a,int b){
-	return a+b;
+//functions have their types , that which kind of value they return
+int mul(int a , int b){//this mul function returns int value
+    return (a*b);
 }
 
+//function that returns nothing have ""VOID TYPE""
+void print(){
+    cout<<"this funtion returns nothing";
+}
 int main(){
-//	printstuff();
-    int a,b;
-    a=3,b=5;
-    int ans=sum(a,b);
-    cout<<ans;
-	return 0;
+    print();
+    return 0;
 }
